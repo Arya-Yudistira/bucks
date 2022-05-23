@@ -75,7 +75,7 @@ export const NavLinks = styled(LinkS)`
     color: #fff;
     display: flex;
     align-items: center;
-    text-decoration: none;
+    text-decoration: none !important;
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
@@ -99,7 +99,7 @@ export const NavBtnLink = styled(LinkR)`
     background: #01bf71;
     white-space: nowrap;
     padding: 10px 22px;
-    color: #010686;
+    color: #010606;
     font-size: 16px;
     outline: none;
     border: none;
@@ -110,6 +110,6 @@ export const NavBtnLink = styled(LinkR)`
     &:hover{
         transition:  all 0.2 ease-in-out;
         background: #fff;
-        color: #010686;
+        color: #010606;
     }
 `

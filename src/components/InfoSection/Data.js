@@ -24,7 +24,7 @@ export const homeObjTwo = {
     headline: 'Unlimited Transaction with zero fees',
     description: 'Get Acces to our exclusive app that allows you to send umlimited transaction without getting charged any fees',
     buttonLabel: 'Get Started',
-    imgStart: false,
+    imgStart: true,
     img: require('../../images/svg-2.svg').default,
     alt: 'Saving',
     dark: false,
